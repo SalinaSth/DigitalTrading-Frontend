@@ -1,38 +1,116 @@
 .App {
   text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.containerMargin{
+  padding-top: 80px;
+  /* padding: 10px; */
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.sidenav{
+  height: 100%;  
+  width: 25%;  
+  position: fixed; 
+  z-index: 1; top: 0; 
+  left: 0; background-color:#232323; 
+  transition: .5s ease; 
+  overflow-x: hidden; 
+  padding-top: 20px; 
+  display: flex; flex-direction: column; 
   align-items: center;
+}
+
+/*Client*/
+
+/*header*/
+#header {
+  height: 70px;
+  z-index: 997;
+  transition: all 0.5s ease-in-out;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo h1 {
+  font-size: 30px;
+  margin: 0;
+  line-height: 0;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+}
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/**
+* Desktop Navigation 
+*/
+.navbar {
+  padding: 0;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar a, .navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #565e49;
+  white-space: nowrap;
+  transition: 0.3s;
+
+}
+
+.navbar a i, .navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+  color: #94c045;
+}
+@media (max-width: 1000px) {
+  .navbar .dropdown .dropdown ul {
+    left: -90%;
+  }
+  .navbar .dropdown .dropdown:hover > ul {
+    left: -100%;
+  }
+}
+
+.custom-img{
+  margin: 20px;
+}
+
+button.btn{
+  font-size: 16px;
+  border: none;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-weight: bold;
+  padding: 7px 20px;
+  border-radius: 3px;
+  background: linear-gradient(-90deg, #0ae3ad, #05a17f);
+  color: #f1f1f1;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  transition: all .3s ease-in-out;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.custom-form label{
+  margin-bottom: 10px;
+  color: #464646;
 }
