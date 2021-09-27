@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .containerMargin{
   padding-top: 80px;
@@ -18,7 +18,6 @@
   display: flex; flex-direction: column; 
   align-items: center;
 }
-
 /*Client*/
 
 /*header*/
@@ -113,4 +112,65 @@ button.btn{
 .custom-form label{
   margin-bottom: 10px;
   color: #464646;
+}
+
+.logFormWrap{
+  position: relative;
+  right: 0;
+  margin: 30px;
+  max-width: 70%;
+  height: 80%;
+  background-color: #fff;;
+  box-shadow: 0 10px 20px rgba(0,0,0,.6);
+  float: center; 
+}
+.logFormWrap input{
+  width: 100%;
+  height: auto;
+  padding: 9px 5px;
+  font-size: 16px;
+  color: #414141;
+  margin-bottom: 5px;
+  border: 1px solid #05ca88;  
+  outline: none;
+  background: transparent;
+}
+.logFormWrap h4{
+
+  color: #04a16d;
+}
+.form-group label{
+  float: left;
+  color: #03c584;
+  font-weight: 500;
+}
+
+.logFormWrap button.btn{
+  font-size: 16px;
+  border: none;
+  justify-content: center;
+  font-weight: bold;
+  padding: 7px 20px;
+  border-radius: 3px;
+  background: linear-gradient(-90deg, #30e4ae, #01a078);
+  color: #f1f1f1;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  transition: all .3s ease-in-out;
+}
+.custom-head{
+  color: #01a078;
+  margin: 20px;
+}
+.wrapper{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tab-nav{
+  background-color: #ddd;
+}
+
+.custom-opt input{
+  color: #028060ea;
+  margin-right: 10px;
 }

@@ -11,24 +11,31 @@ class Header extends Component {
         if (localStorage.getItem('token')) {
             var menu =
                 <ul >
-                    
-                    <Link  to="/clientprofile">
-                        <li >Welcome {localStorage.getItem('fullname')} </li>
+
+                    <Link className="nav-item"  to="/dashboard">
+                        <li >Dashboard </li>
                     </Link>
 
-                    <Link  to="/about">
-                        <li >About Us </li>
+                    <Link  to="/order">
+                        <li className="nav-item">
+                          Order
+                        </li>
                     </Link>
-                    <Link  to="/service">
-                            <li >Services </li>
+                    <Link  to="/market">
+                        <li >Market Data </li>
                      </Link>
 
-                    <Link  to="/booking">
-                        <li >Booking </li>
+                    <Link  to="/trade">
+                        <li >Trade </li>
                     </Link>
-                    <Link  to="/contact">
-                        <li >Contact Us </li>
+                    <Link  to="/fund">
+                        <li >Fund </li>
                     </Link>
+
+                    <Link  to="/fund">
+                        <li >My Profile </li>
+                    </Link>
+
                     <Link  to="/logout">
                         <li onClick={logout}>Log out </li>
                     </Link>
@@ -56,7 +63,9 @@ class Header extends Component {
                 <div className="container d-flex align-items-center justify-content-between">
                     <Link to="/">
                     <div className="logo" >
-                        <img src="/images/logo2.png" alt="logo"/>
+                        <img src="/images/logo2.png" alt="logo" style={{paddingTop:"3px"}}/>
+                        <h3 style={{float:"right", padding:"10px", color:"#00a07a"}}>
+                            Digital Trading</h3>
                     </div>
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" 
