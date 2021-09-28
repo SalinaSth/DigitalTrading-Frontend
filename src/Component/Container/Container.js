@@ -16,7 +16,6 @@ class Container extends Component{
                      <Route path='/login' component={Login}/>
                      <Route path='/dashboard' component={Dashboard}/>
                      <Route path='/order' component={Order}/>
-                     
                   </div>
              </div> 
          </div>

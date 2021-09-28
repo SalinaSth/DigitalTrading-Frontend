@@ -59,9 +59,10 @@ class Register extends Component{
         <div className="container-fluid containerMargin ">
             <div className="container-fluid row ">
                 <div className="col-md-3"></div>
-                <div className="col-md-6">
-                    <img className="custom-img" src="/images/logo.jpg"/>
-                <form className="custom-form">
+                <div className="col-md-6 custom-reg">
+                    <img className="" src="/images/logo.jpg" style={{width:"80px", height:"80px"}}/>
+                    <h5>Digital Trading System</h5>
+                    <form className="custom-form">
                     <p><input type="text" id="Fullname" className="form-control" name="fullname" placeholder="Enter Full Name" 
                     value={this.state.fullname} onChange={this.ChangeItems} required /></p>
 

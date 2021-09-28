@@ -10,28 +10,61 @@ class DPWatchlist extends Component{
                         <table className="table table-striped table-hover" style={{marginTop:'30px'}}>
                             <thead  style={{color:'#027961'}}>
                                 <tr>
-                                    <th>Index Code</th>
-                                    <th>Index value</th>
-                                    <th>Prev Close</th>
-                                    <th>Point Close</th>
+                                    <th>Symbol</th>
+                                    <th>LTP</th>
+                                    <th>HIGH</th>
+                                    <th>LOW</th>
+                                    <th>OPEN</th>
+                                    <th>CLOSE</th>
                                     <th>% Change</th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                {/* {
-                                    //loop launa .map
-                                    // this.state.bookings.map((booking) => { */}
-                                        {/* return ( */}
-                                            <tr>
-                                                <td>somethings</td>
-                                                <td>somethings</td>
-                                                <td>somethings</td>
-                                                <td>somethings</td>
-                                                <td>somethings</td>
-                                            </tr>
-                                        {/* ) */}
-                                    {/* ) */}
-                                {/* } */}
+                            <tbody>           
+                                <tr>
+                                    <td>NABIL</td>
+                                    <td>104.8</td>
+                                    <td>104.8</td>
+                                    <td>104.8</td>
+                                    <td>104.8</td>
+                                    <td>106.0</td>
+                                    <td>-1.80</td>
+                                </tr> 
+                                <tr>
+                                    <td>NABIL</td>
+                                    <td>104.8</td>
+                                    <td>104.8</td>
+                                    <td>104.8</td>
+                                    <td>104.8</td>
+                                    <td>106.0</td>
+                                    <td>-1.80</td>
+                                </tr>
+                                <tr>
+                                    <td>NABIL</td>
+                                    <td>104.8</td>
+                                    <td>104.8</td>
+                                    <td>104.8</td>
+                                    <td>104.8</td>
+                                    <td>106.0</td>
+                                    <td>-1.80</td>
+                                </tr>
+                                <tr>
+                                    <td>NABIL</td>
+                                    <td>104.8</td>
+                                    <td>104.8</td>
+                                    <td>104.8</td>
+                                    <td>104.8</td>
+                                    <td>106.0</td>
+                                    <td>-1.80</td>
+                                </tr>
+                                <tr>
+                                    <td>NABIL</td>
+                                    <td>104.8</td>
+                                    <td>104.8</td>
+                                    <td>104.8</td>
+                                    <td>104.8</td>
+                                    <td>106.0</td>
+                                    <td>-1.80</td>
+                                </tr>                                    
                             </tbody>
                         </table>
                     </div>

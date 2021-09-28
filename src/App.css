@@ -1,6 +1,6 @@
 .App {
-  text-align: center;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  /* text-align: center; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .containerMargin{
   padding-top: 80px;
@@ -91,10 +91,21 @@
   }
 }
 
-.custom-img{
+.custom-reg{
+  text-align: center;
   margin: 20px;
 }
-
+.custom-reg img{
+  margin-top: 20px;
+}
+.custom-reg h5{
+  margin-bottom: 15px;
+  font-family: sans-serif;
+  color: #04a16d;
+}
+.custom-img{
+  margin-top: 20px;
+}
 button.btn{
   font-size: 16px;
   border: none;
@@ -122,7 +133,8 @@ button.btn{
   height: 80%;
   background-color: #fff;;
   box-shadow: 0 10px 20px rgba(0,0,0,.6);
-  float: center; 
+  float: center;
+  text-align: center;
 }
 .logFormWrap input{
   width: 100%;
@@ -161,16 +173,57 @@ button.btn{
 .custom-head{
   color: #01a078;
   margin: 20px;
+  justify-content: center;
 }
 .wrapper{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+.wrapper h4{
+  text-align: center;
+}
 .tab-nav{
   background-color: #ddd;
 }
 
-.custom-opt input{
-  color: #028060ea;
+.custom-opt{
+  height: 45px;
+  padding: 10px;
+  background-color: #078667 !important;
+  color: #f5f5f5ea;
   margin-right: 10px;
+  align-items: flex-start;
+}
+
+.cust-top{
+  height: auto;
+  padding-top: 15px;
+  background-color: #d6ece7;
+  color: #06664e !important;
+  margin: 20px;
+  align-items: flex-start;
+
+}
+
+.cust-td{
+  background-color: #078667
+}
+.dashCard{
+  text-align: center;
+  color: #5e5e5e;
+}
+
+.dashCard text{
+  float: left;
+}
+
+.cust-tab{
+  margin-top: 20px;
+}
+.cust-tab label{
+  margin-left: 10px;
+  color: #4e4e4e;
+}
+.cust-tab p{
+  margin-left: 10px;
+  color: #5f5f5f;
 }
