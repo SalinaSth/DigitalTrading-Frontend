@@ -24,9 +24,11 @@ class Login extends Component{
                 this.setState({
                     chkLogin: true
                 })
+                window.location.reload(true)
             })        
             .catch((err)=>{
                 console.log(err.response)
+                alert("Invalid Username or Password. Try again")
             })
         }
     render(){

@@ -30,40 +30,40 @@ class DPWatchlist extends Component{
                                     <td>-1.80</td>
                                 </tr> 
                                 <tr>
-                                    <td>NABIL</td>
-                                    <td>104.8</td>
-                                    <td>104.8</td>
-                                    <td>104.8</td>
-                                    <td>104.8</td>
-                                    <td>106.0</td>
-                                    <td>-1.80</td>
+                                    <td>DRS</td>
+                                    <td>124.8</td>
+                                    <td>124.8</td>
+                                    <td>124.8</td>
+                                    <td>124.8</td>
+                                    <td>129.0</td>
+                                    <td>-2.80</td>
                                 </tr>
                                 <tr>
-                                    <td>NABIL</td>
-                                    <td>104.8</td>
-                                    <td>104.8</td>
-                                    <td>104.8</td>
-                                    <td>104.8</td>
-                                    <td>106.0</td>
-                                    <td>-1.80</td>
+                                    <td>JLBL</td>
+                                    <td>204.8</td>
+                                    <td>204.8</td>
+                                    <td>204.8</td>
+                                    <td>204.8</td>
+                                    <td>200.0</td>
+                                    <td>2.80</td>
                                 </tr>
                                 <tr>
-                                    <td>NABIL</td>
-                                    <td>104.8</td>
-                                    <td>104.8</td>
-                                    <td>104.8</td>
-                                    <td>104.8</td>
-                                    <td>106.0</td>
-                                    <td>-1.80</td>
+                                    <td>HIMYM</td>
+                                    <td>192.2</td>
+                                    <td>192.2</td>
+                                    <td>192.2</td>
+                                    <td>192.2</td>
+                                    <td>188.0</td>
+                                    <td>3.80</td>
                                 </tr>
                                 <tr>
-                                    <td>NABIL</td>
-                                    <td>104.8</td>
-                                    <td>104.8</td>
-                                    <td>104.8</td>
-                                    <td>104.8</td>
-                                    <td>106.0</td>
-                                    <td>-1.80</td>
+                                    <td>TMKOC</td>
+                                    <td>163.7</td>
+                                    <td>163.7</td>
+                                    <td>163.7</td>
+                                    <td>163.7</td>
+                                    <td>159.0</td>
+                                    <td>2.99</td>
                                 </tr>                                    
                             </tbody>
                         </table>

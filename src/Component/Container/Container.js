@@ -4,6 +4,7 @@ import {Route, Link} from 'react-router-dom';
 import Login from "../Authbase/Login";
 import Dashboard from "../Dashboard/Dashboard";
 import Order from "../Order/Order";
+import Collateral from "../Collateral/Collateral";
 
 class Container extends Component{
     render(){
@@ -16,6 +17,7 @@ class Container extends Component{
                      <Route path='/login' component={Login}/>
                      <Route path='/dashboard' component={Dashboard}/>
                      <Route path='/order' component={Order}/>
+                     <Route path='/collateral' component={Collateral}/>
                   </div>
              </div> 
          </div>

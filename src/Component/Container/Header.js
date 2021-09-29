@@ -5,7 +5,7 @@ class Header extends Component {
     render() {
         const logout = ()=>{
             localStorage.clear();
-            window.location.href = '/'
+            window.location.href = '/login'
         }
 
         if (localStorage.getItem('token')) {
@@ -28,8 +28,8 @@ class Header extends Component {
                     <Link  to="/trade">
                         <li >Trade </li>
                     </Link>
-                    <Link  to="/fund">
-                        <li >Fund </li>
+                    <Link  to="/collateral">
+                        <li >Collateral </li>
                     </Link>
 
                     <Link  to="/fund">
